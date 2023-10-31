@@ -1,0 +1,181 @@
+body {
+
+    background-color: rgb(227, 229, 239);
+
+}
+
+.cat-photos {
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+}
+
+.img-grid {
+
+    grid-auto-flow: column;
+
+    display: grid;
+
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+    width: 75%;
+
+    grid-gap: 10px;
+
+    grid-template-rows: 0%;
+
+}
+
+.cat-list h2 {
+
+    margin: 0;
+
+    font-size: 60px;
+
+}
+
+.img-grid img {
+
+    width: 400px;
+
+    height: 400px;
+
+}
+
+.cat-list {
+
+    background-color: rgb(194, 202, 234);
+
+    display: flex;
+
+    flex-direction: row;
+
+    border: 6px solid white;
+
+    justify-content: space-around;
+
+    align-items: flex-end;
+
+    flex-wrap: nowrap;
+
+
+
+}
+
+.love {
+    display: flex;
+
+    font-size: 30px;
+
+
+
+    flex-direction: column;
+
+}
+
+.hate {
+
+    display: flex;
+
+    font-size: 30px;
+
+    flex-direction: column;
+
+    order: 2;
+
+}
+
+.lasagna {
+
+    width: 300px;
+
+    margin: 0px;
+
+    padding: 0px;
+
+}
+
+.cats {
+
+    width: 500px;
+
+}
+
+.list {
+
+    align-self: flex-start;
+
+    order: 1;
+
+}
+
+.form {
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+
+    flex-wrap: wrap;
+
+    justify-content: center;
+
+    background-color: rgb(98, 145, 181);
+
+}
+
+.form h2 {
+
+    font-size: 50px;
+
+    color: white;
+
+}
+
+.form fieldset {
+
+
+
+    display: flex;
+
+    flex-direction: row;
+
+    margin-bottom: 75px;
+
+    flex-wrap: wrap;
+
+    justify-content: center;
+
+    align-items: flex-start;
+
+    background-color: rgb(110, 110, 198);
+
+    border: solid lightgray 2px;
+
+}
+
+.form label {
+
+    color: rgb(255, 255, 255);
+
+}
+
+.form legend {
+
+    color: white;
+
+}
+
+h1 {
+
+    display: flex;
+
+    justify-content: center;
+
+    font-size: 100px;
+
+}
